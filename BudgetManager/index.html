@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="title">Manage your budget</h1>
+    <div class="main_container">
+      <div class="total_container">
+        <h2 class="total_title">Balance</h2>
+        <h2 class="total_value">Rs.00000</h2>
+
+        <div class="total_wrapper_flexbox">
+          <div class="total_income_container">
+            <p>Total income</p>
+            <h3 class="total_income_value"></h3>
+          </div>
+
+          <div class="total_expense_container">
+            <p class="total_expense_container_title">Total expense</p>
+            <h3 class="total_expense_value"></h3>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!--------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+      <div class="value_container">
+        <div class="input_area_wrapper">
+          <h2>Add income or expense</h2>
+          <div class="input_options_animation">
+            <select class="income_or_expense">
+              <option value="income" selected>Income</option>
+              <option value="expense">Expense</option>
+            </select>
+
+            <input class="input_description" placeholder="Description" />
+            <input class="input_value" placeholder="value" />
+            <button class="add_to_list_button">Add to list</button>
+          </div>
+        </div>
+
+        <div class="list_main_container">
+          <div class="income_list_container">
+            <h3>Income list</h3>
+            <div class="income_list_item_wrapper">
+              <!--<div class="income-item" id="item-1">
+                <p class="item_description">From my Salary</p>
+                <p class="item_value">Rs.100</p>
+                <button class="item_delete_button">Delete</button>
+              </div>
+              <div class="income-item" id="item-2">
+                <p class="item_description">Stock sale</p>
+                <p class="item_value">Rs.432</p>
+                <button class="item_delete_button">Delete</button>
+              </div>-->
+            </div>
+          </div>
+          <div class="expense_list_container">
+            <h3>Expense list</h3>
+            <div class="expense_list_item_wrapper">
+              <!--<div class="expense_item" id="item-1">
+                <p class="item_description">Expense from tour</p>
+                <p class="item_value">Rs.2000</p>
+                <button class="item_delete_button">Delete</button>
+              </div>
+              <div class="expense_item" id="item-2">
+                <p class="item_description">
+                  Expense from college fasdfadsfees
+                </p>
+                <p class="item_value">Rs.254</p>
+                <button class="item_delete_button">Delete</button>
+              </div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
